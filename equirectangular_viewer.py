@@ -1,3 +1,32 @@
+"""
+Equirectangular 360° Viewer - Version modifiée (equirectangular_viewer.py)
+
+Version originale :
+    https://github.com/cazitouni/EquiView360
+    Copyright (C) 2024 cazitouni
+
+Modifications sévères apportées par RegalusLex (2026) :
+    - Navigation automatique dans le dossier d'images
+    - Raccourcis clavier (O, flèches, Q)
+    - Overlay QLabel (nom de fichier + FOV)
+    - Support ligne de commande + dialogue fichier
+    - Optimisations OpenGL et gestion d'erreurs
+    - Etc. (voir liste ci-dessus)
+
+Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le modifier
+selon les termes de la Licence Publique Générale GNU Affero (AGPL) version 3
+ou (selon votre choix) toute version ultérieure.
+
+Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE
+GARANTIE ; sans même la garantie implicite de QUALITÉ MARCHANDE ou
+d'ADÉQUATION À UN USAGE PARTICULIER. Consultez la Licence Publique Générale
+GNU Affero pour plus de détails.
+
+Vous devriez avoir reçu une copie de la Licence Publique Générale GNU Affero
+avec ce programme. Si ce n'est pas le cas, consultez :
+https://www.gnu.org/licenses/agpl-3.0.html
+"""
+
 import os
 import sys
 import math
